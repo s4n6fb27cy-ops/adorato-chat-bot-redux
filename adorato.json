@@ -1,0 +1,84 @@
+{
+  "business": {
+    "name": "Adorato Wines",
+    "tagline": "Brilliant Southern California Wines",
+    "website": "https://www.adoratowines.com",
+    "contact_email": "kristin@adoratowines.com",
+    "instagram": "https://www.instagram.com/adoratowines/",
+    "winemaker": "Kristin Fione",
+    "story": "Adorato Wines is named for and inspired by Kristin's grandparents, Daniel and Flora Fione. Daniel met Flora while serving with the 4th Armored Division in WWII — he was stationed in Czechoslovakia, she worked with the Red Cross in Luxembourg. He'd go AWOL to see her, blaming his absences on a 'wrong map.' He promised to return for her after the war — and he did. They married on July 4, 1945. Kristin discovered her love of wine (and the community around it) in Los Angeles after moving there for grad school at USC, first on Instagram and then in real life. She makes the wine with Patrick Kelley at Cavaletti Vineyards, and pours weekends at the Cavaletti tasting room in Moorpark, CA.",
+    "notes_for_bot": "This is a small, family-story-driven boutique winery, not a large commercial operation. Keep tone warm, personal, and a little romantic — but don't overdo it. Kristin runs this herself alongside a full-time job (Production Coordinator at Freeform)."
+  },
+  "promo": {
+    "code": "ADORATO15",
+    "details": "15% off orders of $300 or more, applied at checkout."
+  },
+  "wines": [
+    {
+      "name": "Hayley",
+      "vintage": 2023,
+      "varietal": "100% Cabernet Sauvignon",
+      "region": "LA County",
+      "aging": "6 months in new French oak, then 18 months in neutral French oak",
+      "tasting_notes": "Tart black cherry, tobacco, blackberry, cedar",
+      "price_usd": 45,
+      "stock_status": "in stock"
+    },
+    {
+      "name": "Alexis",
+      "vintage": 2023,
+      "varietal": "100% Syrah",
+      "region": "Santa Maria Valley",
+      "aging": "24 months in neutral oak",
+      "tasting_notes": "Violet, lavender, graphite, blackberry, raspberry, black olive",
+      "price_usd": 45,
+      "stock_status": "in stock"
+    },
+    {
+      "name": "Elizabeth",
+      "vintage": 2024,
+      "varietal": "Rosé",
+      "region": "Santa Ynez Valley",
+      "aging": null,
+      "tasting_notes": "Strawberries, peach, watermelon",
+      "price_usd": 30,
+      "stock_status": "in stock"
+    },
+    {
+      "name": "Flora",
+      "vintage": 2024,
+      "varietal": "100% Grenache Blanc",
+      "region": "Santa Ynez Valley",
+      "aging": null,
+      "tasting_notes": "Stone fruit, melon, papaya, balanced acid, crisp minerality",
+      "price_usd": 30,
+      "stock_status": "in stock"
+    }
+  ],
+  "bundles": [
+    {
+      "name": "Parking Lot Party Bundle",
+      "contents": "4 bottles, your choice of any 2 reds or whites (selection entered at checkout)",
+      "price_usd": 100,
+      "stock_status": "in stock"
+    }
+  ],
+  "club": null,
+  "policies": {
+    "age_requirement": "Purchasers must be at least 21 years old (confirmed at checkout).",
+    "shipping": "Ships to the continental United States only — does not currently ship to Alaska, Hawaii, U.S. territories, or internationally.",
+    "returns": "Not published on the site — if asked, offer to connect them with Kristin directly rather than guessing."
+  },
+  "tasting_room": {
+    "note": "Adorato doesn't have its own standing tasting room, but private tastings CAN be scheduled by request — email kristin@adoratowines.com with a preferred date and group size to book one. Kristin also pours Adorato wines most weekends at the Cavaletti Vineyards tasting room in Moorpark, CA, for walk-ins."
+  },
+  "events": [],
+  "engagement_policy": {
+    "email_capture": "Try to capture every visitor's email at some point in the conversation, not only when a question goes unanswered. After giving a genuinely helpful first answer, warmly invite the visitor to share their email so Kristin can keep them posted on new releases, restocks, and tasting events — frame it as a friendly, optional ask, never pushy, and never block answering their question on getting it first. Use the capture_lead tool any time an email is given, even if their original question was already fully answered (use topic 'newsletter-signup' for these general opt-ins)."
+  },
+  "unknowns_flagged_for_owner": [
+    "No published hours or physical retail address beyond the Cavaletti tasting room mention.",
+    "No published return/refund policy.",
+    "No published list of which specific states are excluded beyond Alaska/Hawaii (confirm with Kristin if asked)."
+  ]
+}
